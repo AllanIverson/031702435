@@ -109,7 +109,7 @@ public  class  Sudoku
     }
 
     public  static  void main(String[] args) {
-        args = new String[]{"-m","8","-n","5","-i","src/input.txt","-o","src/output.txt"};
+
         loadArgs(args);
 //读入文件 用try捕捉异常
         try {
